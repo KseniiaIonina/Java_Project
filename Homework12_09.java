@@ -37,15 +37,15 @@ public class Homework12_09 {
     //Напишите метод который принимает на вход число в диапазон
     // от 1 до 100 и возвращает true  если это четное число,
     // и false если оно не четное.
-    public static void evenNumbers (int a) {
+//    public static void evenNumbers (int a) {
 //        Scanner scanner = new Scanner (System.in);
 //        System.out.println("Write acount from 1 befor 100");
-   //   int a = scanner.nextInt();
+      int a = scanner.nextInt();
         final boolean b = a % 2 == 0;
         if (a % 2 == 0) {
-            System.out.println("true");
+            System.out.println("number " + a "is even numbers");
         }else {
-            System.out.println("false");
+            System.out.println("number " + a is not even numbers");
         }
 
     }
